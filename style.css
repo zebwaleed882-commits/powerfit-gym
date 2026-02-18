@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    position:fixed;
+    width:100%;
+    background:rgba(0,0,0,0.7);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:#ff3c00;
+}
+
+nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1599058917212-d750089bc07e")
+    center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding-top:80px;
+}
+
+.hero-content h1{
+    font-size:60px;
+}
+
+button{
+    padding:14px 35px;
+    background:#ff3c00;
+    border:none;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+section{
+    padding:100px 60px;
+    text-align:center;
+}
+
+.programs .cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+}
+
+.card{
+    background:#222;
+    padding:40px;
+    border-radius:20px;
+}
+
+form{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+input{
+    padding:12px;
+    width:300px;
+    border:none;
+    border-radius:20px;
+}
+
+footer{
+    padding:30px;
+    text-align:center;
+    background:black;
+}
